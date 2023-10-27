@@ -1,0 +1,32 @@
+{
+  "name": "proyecto1-juanpadilla-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PadInLa/proyecto1-juanpadilla-backend.git"
+  },
+  "author": "Juan Padilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PadInLa/proyecto1-juanpadilla-backend/issues"
+  },
+  "homepage": "https://github.com/PadInLa/proyecto1-juanpadilla-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  }
+}
